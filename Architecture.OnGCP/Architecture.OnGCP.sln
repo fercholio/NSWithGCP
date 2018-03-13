@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.OnGCP", "WebApp.OnGCP\WebApp.OnGCP.csproj", "{E4B7343B-A991-412A-BE80-C1D67C09548D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.OnGCP", "WebApp.OnGCP\WebApp.OnGCP.csproj", "{E4B7343B-A991-412A-BE80-C1D67C09548D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI.EndRequest", "WebAPI.EndRequest\WebAPI.EndRequest.csproj", "{C0500A59-4F8C-492C-8053-1AA400B8832A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Things.AndTesting", "OAuth.Things.AndTesting\OAuth.Things.AndTesting.csproj", "{CB16A17A-79C1-4797-A970-21E29FEEA79F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E4B7343B-A991-412A-BE80-C1D67C09548D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4B7343B-A991-412A-BE80-C1D67C09548D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4B7343B-A991-412A-BE80-C1D67C09548D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0500A59-4F8C-492C-8053-1AA400B8832A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0500A59-4F8C-492C-8053-1AA400B8832A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0500A59-4F8C-492C-8053-1AA400B8832A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0500A59-4F8C-492C-8053-1AA400B8832A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB16A17A-79C1-4797-A970-21E29FEEA79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB16A17A-79C1-4797-A970-21E29FEEA79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB16A17A-79C1-4797-A970-21E29FEEA79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB16A17A-79C1-4797-A970-21E29FEEA79F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

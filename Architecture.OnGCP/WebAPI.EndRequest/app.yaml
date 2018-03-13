@@ -1,0 +1,6 @@
+runtime: aspnetcore
+env: flex
+handlers:
+- url: /fonts
+  static_dir: /fonts
+  application_readable: true
